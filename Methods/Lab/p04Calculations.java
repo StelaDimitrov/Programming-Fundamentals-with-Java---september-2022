@@ -13,19 +13,39 @@ public class p04Calculations {
 
         switch (commandInput){
             case "add":
-                //printSum()
-                break;;
+                addNumbers(firstNumInput,secondNumInput);
+                break;
             case "Multiply":
-                //printProduct
+                multiplyNumbers(firstNumInput,secondNumInput);
                 break;
             case "subtract":
+                subtractNumbers(firstNumInput,secondNumInput);
                 break;
             case"divide":
+                divideNumbers(firstNumInput,secondNumInput);
                 break;
         }
     }
     public static void  addNumbers(int firstNum, int secondNum){
         int result = firstNum + secondNum;
+          System.out.println(result);
+
+    }
+
+    public static void multiplyNumbers(int firsNum, int secondNum){
+        int result = firsNum*secondNum;
+          System.out.println(result);
+
+
+    }
+    public static void subtractNumbers(int firsNum, int secondNum){
+        int result = firsNum - secondNum;
+          System.out.println(result);
+
+    }
+    public static void divideNumbers(int firstNum, int secondNum){
+
+        int result = firstNum /secondNum;
           System.out.println(result);
 
     }
