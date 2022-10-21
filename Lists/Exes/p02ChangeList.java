@@ -33,6 +33,10 @@ public class p02ChangeList {
 
             command = scanner.nextLine();
         }
-        
+        for (int number:numbersList) {
+              System.out.print(number + " ");
+
+
+        }
     }
 }
