@@ -1,5 +1,7 @@
 package TextProcessing.Lab;
 
+import TextProcessing.Exer.String;
+
 import java.util.Scanner;
 
 public class p01ReverseStrings {

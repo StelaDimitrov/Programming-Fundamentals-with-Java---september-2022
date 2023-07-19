@@ -3,7 +3,7 @@ package TextProcessing.Exer;
 import java.util.Scanner;
 
 public class p01ValidUsernames {
-    public static void main(String[] args) {
+    public static <Scanner> void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
