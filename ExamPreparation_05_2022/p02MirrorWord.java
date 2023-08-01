@@ -32,6 +32,7 @@ public class p02MirrorWord {
                 pars.add(firstWord + " <=> " + secondWord);
             }
         }
+<<<<<<< HEAD
         if (countAllPars == 0) {
             System.out.println("No word pairs found!");
         } else {
@@ -47,3 +48,21 @@ public class p02MirrorWord {
         }
     }
 }
+=======
+            if (countAllPars == 0) {
+                System.out.println("No word pairs found!");
+            } else {
+                System.out.println(countAllPars+ " word pairs found!");
+            }
+
+
+            if (pars.size() == 0) {
+                System.out.printf("No mirror words!");
+            } else {
+                System.out.println("The mirror words are:");
+                System.out.println(String.join(", ", pars));
+            }
+        }
+    }
+
+>>>>>>> 44dd1839f453246f067a55835254aa96b99907a4

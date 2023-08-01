@@ -1,4 +1,5 @@
 package ExamPreparation_05_2022;
+<<<<<<< HEAD
 import java.util.*;
 
 
@@ -80,4 +81,8 @@ public class p03ThePianist {
         }
         piecesMap.entrySet().forEach(entry -> System.out.printf("%s -> Composer: %s, Key: %s%n", entry.getKey(), entry.getValue().get(0), entry.getValue().get(1)));
     }
+=======
+
+public class p03ThePianist {
+>>>>>>> 44dd1839f453246f067a55835254aa96b99907a4
 }
